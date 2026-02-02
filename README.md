@@ -83,9 +83,7 @@ vfernandez@fundacioace.org
 Institution: Washington University in St. Louis
 Website: https://knightadrc.wustl.edu
 
-Contact:
-
-Carlos Cruchaga
+Contact **Carlos Cruchaga**
 
 ### GNPC harmonized data
 The GNPC harmonized data have been made available for public request by the AD Data Initiative.
