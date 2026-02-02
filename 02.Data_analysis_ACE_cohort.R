@@ -17,9 +17,9 @@ library("survminer")
 library(RColorBrewer)
 library(meta)
 
+## Load input data
 load("omics_clinical_data/Data_for_analysis_V1.RData")
 load("omics_clinical_data/Metadata_cohort.RData")
-## Cosas para exportar
 
 ## Demographics full cohort
 
@@ -422,7 +422,7 @@ summary(lm(Somalogic_PC.2 ~ Hipertension + PRS_Keaton_BloodPressure_DBP_2024 + S
 summary(lm(Somalogic_PC.2 ~ Hipertension + PRS_Keaton_BloodPressure_PP_2024 + Sex_1m_2f + Age_LP + Total_protein_CSF,, data=data.for.analysis.v1))
 
 ## RBC count and PCs
-data.for.analysis.v1$RBC_count_CSF <- gsub("[^0-9.]", "", data.for.analysis.v1$RECUENTO.CELULAR.Hematíes..mm3.Contaje.celular.N) %>% as.numeric() 
+data.for.analysis.v1$RBC_count_CSF <- gsub("[^0-9.]", "", data.for.analysis.v1$RECUENTO.CELULAR.HematÃ­es..mm3.Contaje.celular.N) %>% as.numeric() 
 
 data.for.analysis.v1$RBC_count_CSF_factor <- cut(data.for.analysis.v1$RBC_count_CSF, breaks = c(-Inf, 10.1, 100, Inf), 
                                                  labels = c("<10", "10-100", ">100"), right = FALSE) 
@@ -1703,6 +1703,7 @@ names(abeta.models) <- paste("Abeta42", names(run.models), sep="_")
 
 ad.biom.models <- c(abeta.models, ptau.models)
 # save(ad.biom.models, file="AD_biomarker_models_20251001.RData")
+
 
 
 
