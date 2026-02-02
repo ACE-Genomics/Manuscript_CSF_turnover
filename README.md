@@ -59,7 +59,7 @@ File: **06.AB42_and_ptau_signatures.R**
 Analysis of CSF proteomic signatures associated with Aβ42 and p-tau
 
 
-## GWAS Analyses
+### GWAS Analyses
 
 The directory "GWAS_scripts" contains code used to analyze genomic data.
 
