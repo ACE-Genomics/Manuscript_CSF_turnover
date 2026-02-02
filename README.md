@@ -61,9 +61,7 @@ Analysis of CSF proteomic signatures associated with Aβ42 and p-tau
 
 ### GWAS Analyses
 
-The directory "GWAS_scripts" contains code used to analyze genomic data.
-
-Access to genomic data is restricted. To request access, please contact:
+The directory "GWAS_scripts" contains code used to analyze genomic data. To request access, please contact:
 
 Agustin Ruiz (corresponding author): aruiz@fundacioace.com
 
