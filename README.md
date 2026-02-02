@@ -1,4 +1,4 @@
-This repository contains the code used to analyze data for the manuscript entitled "CSF turnover reshapes biomarker interpretation in neurodegeneration studies"
+This repository contains the code used to analyze data for the manuscript entitled "CSF turnover reshapes biomarker interpretation in neurodegeneration studies". Code was run on R version 4.1.1.
 
 Scripts 01.Data_preprocessing_andPCA.R and 02.Data_analysis_ACE_cohort.R run totally or partially on omics or patient data, which can not be made publicly available due to ethical and legal reasons. 
 
