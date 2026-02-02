@@ -4,7 +4,7 @@ Scripts 01.Data_preprocessing_andPCA.R and 02.Data_analysis_ACE_cohort.R run tot
 
 The directory GWAS_scripts contains code used to analyze genomics data. To access such data, contact the corresponding author (aruiz@fundacioace.com).
 
-To access omics and patient data from the ACE CSF cohort, contact the corresponding author of the manuscript Agustin Ruiz (aruiz@fundacioace.com).
+To access omics and patient data from the ACE CSF cohort, contact the corresponding author (aruiz@fundacioace.com).
 
 To access Knight ADRC CSF AD biomarker and proteomics data, contact: Carlos Cruchaga and Muhammad Ali (Washington University, Saint Louis, MO, USA).
 
