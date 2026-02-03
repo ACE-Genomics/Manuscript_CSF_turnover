@@ -8,11 +8,7 @@ All analyses were performed using R version 4.1.1.
 
 This repository is organized into analysis scripts corresponding to different cohorts, data types, and analytical steps. Due to ethical and legal constraints, script 01 and 02 operate on omics or patient-level data that cannot be made publicly available.
 
-Analysis Scripts
-
-### 01. Data preprocessing and PCA
-
-Script: **01.Data_preprocessing_andPCA.R**
+### 01.Data_preprocessing_andPCA.R
 
 -Lipidomics and proteomics quality control (QC)
 
@@ -24,9 +20,7 @@ Script: **01.Data_preprocessing_andPCA.R**
 
 Note: This script runs totally or partially on omics and patient data that cannot be shared publicly.
 
-### 02. ACE CSF cohort data analysis
-
-Script: **02.Data_analysis_ACE_cohort.R**
+### 02.Data_analysis_ACE_cohort.R
 
 Statistical analyses conducted locally
 
@@ -34,30 +28,25 @@ Uses omics and clinical metadata from the ACE CSF cohort
 
 Note: This script contains analyses based on restricted data.
 
-### 03. VVIA replication
-Script: **03.VVIA_replications.R**
+### 03. 03.VVIA_replications.R
 
 Replication analyses using provided QTL summary statistics
 
 Does not require access to individual-level patient data
 
-### 04. GNPC data processing
-Script: **04.GNPC_data_processing_and_analysis.R**
+### 04.GNPC_data_processing_and_analysis.R
 
 Code executed within the GNPC server environment
 
 Processes GNPC data and generates result files
 
 ### 05. Cross-cohort result integration
-Script: **05.Result_integration.R**
 
-Integration of results from: ACE CSF cohort, Knight ADRC cohort and GNPC cohort
+Cross-cohort result integration for: ACE CSF cohort, Knight ADRC cohort and GNPC cohort
 
-### 06. Aβ42 and p-tau proteomic signatures
-File: **06.AB42_and_ptau_signatures.R**
+### 06.AB42_and_ptau_signatures.R
 
 Analysis of CSF proteomic signatures associated with Aβ42 and p-tau
-
 
 ### GWAS Analyses
 
@@ -70,14 +59,9 @@ Victoria Fernandez: vfernandez@fundacioace.org
 ## Data Access Information
 
 ### ACE CSF cohort
-Institution: Fundació ACE (https://www.acebarcelona.org/
-)
+Institution: Fundació ACE (https://www.acebarcelona.org/)
 
-Access requests:
-
-aruiz@fundacioace.com
-
-vfernandez@fundacioace.org
+Access requests to aruiz@fundacioace.com & vfernandez@fundacioace.org
 
 ### Knight ADRC cohort
 Institution: Washington University in St. Louis
