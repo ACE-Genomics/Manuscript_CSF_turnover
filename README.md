@@ -18,7 +18,7 @@ This repository is organized into analysis scripts corresponding to different co
 
 -Metadata processing to generate an analysis-ready dataset
 
-Note: This script runs totally or partially on omics and patient data that cannot be shared publicly.
+Note: This script runs on omics and patient data that cannot be shared publicly.
 
 ### 02.Data_analysis_ACE_cohort.R
 
