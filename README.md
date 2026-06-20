@@ -1,6 +1,6 @@
 # **CSF Turnover and Biomarker Interpretation in Neurodegeneration**
 
-This repository contains the code used to analyze data for the manuscript entitled: “CSF turnover reshapes biomarker interpretation in neurodegeneration studies”
+This repository contains the code used to analyze data for the manuscript entitled: “CSF turnover reshapes biomarker interpretation in neurodegeneration studies” - https://pubmed.ncbi.nlm.nih.gov/41674604/
 
 All analyses were performed using R version 4.1.1.
 
